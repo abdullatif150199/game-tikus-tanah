@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Pukul Tikus Tanah</title>
+  </head>
+  <body>
+    <div class="bg-light text-center col-md-4 col-8 m-auto papan">
+      <h3 class="pt-3">Game Pukul Tikus Tanah</h3>
+      <h5 class="score">score anda : 0</h5>
+      <label for="waktu">Waktu (dalam detik):</label>
+      <input type="number" id="waktu" name="waktu" min="1" max="60" value="5" />
+      <br />
+      <button type="button" class="mulai btn btn-primary mb-3">Start</button>
+    </div>
+    <div class="copyRight col-md-4 col-8 m-auto mt-2">
+      <h3>Created By Abdul Latif</h3>
+    </div>
+    <div class="container m-auto">
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+      <div class="tanah col-md-4 col-6">
+        <div class="tikus"></div>
+      </div>
+    </div>
+
+    <audio src="audio/pop.mp3" id="pop"></audio>
+    <audio src="audio/jump1.mp3" id="jump"></audio>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
