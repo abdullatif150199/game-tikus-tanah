@@ -1,10 +1,6 @@
 .papan {
   border-radius: 20px;
 }
-
-.container {
-  max-height: 100vh;
-}
 body {
   background-image: url(../img/rumput.jpg);
   background-size: cover;
@@ -15,7 +11,7 @@ body {
   margin: auto;
 }
 
-.content {
+.container {
   width: 600px;
   margin: auto;
   cursor: url(../img/palu3.png), auto;
